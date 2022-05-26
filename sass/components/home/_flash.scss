@@ -1,0 +1,126 @@
+@import '../../mixins/mixin';
+@import '../../variables/variable';
+
+/*==============================================
+            Flash Deals Part Start
+================================================*/
+#flash {
+    padding: 130px 0 110px;
+
+    .flash_text {
+        h2 {
+            @include fs($para, 45px, 700, $ff1);
+            text-transform: capitalize;
+            padding-bottom: 6px
+        }
+
+        h3 {
+            @include fs($para, 30px, 600, $ff1);
+            text-transform: capitalize;
+            padding-bottom: 15px
+        }
+
+        p {
+            @include fs($shpara, 16px, 400, $ff1);
+            line-height: 28px;
+            text-transform: capitalize;
+            padding-right: 207px;
+            padding-bottom: 25px
+        }
+
+        a {
+            @include fs($wh, 20px, 600, $ff1);
+            text-transform: capitalize;
+            padding: 14px 50px;
+            background: $orange;
+            border-radius: 10px;
+            transition: all linear .3s;
+            line-height: 1;
+
+            &:hover {
+                background: $green;
+            }
+        }
+
+        .pr {
+            padding-right: 40px;
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        .flash_offer {
+            display: block;
+            font-size: 36px;
+            font-weight: 700;
+            font-family: $ff1;
+            color: $para;
+            padding-top: 35px;
+            // padding-right: 45px;
+            // padding-left: 12px;
+            text-align: center;
+        }
+
+        .flash_offer2 {
+            display: block;
+            font-size: 36px;
+            font-weight: 700;
+            font-family: $ff1;
+            color: $para;
+            padding-top: 35px;
+            // padding-right: 65px;
+            text-align: center;
+        }
+
+        .flash_offer3 {
+            display: block;
+            font-size: 36px;
+            font-weight: 700;
+            font-family: $ff1;
+            color: $para;
+            padding-top: 35px;
+            // padding-right: 85px;
+            text-align: center;
+        }
+
+        .flash_offer4 {
+            display: block;
+            font-size: 36px;
+            font-weight: 700;
+            font-family: $ff1;
+            color: $para;
+            padding-top: 35px;
+            text-align: center;
+        }
+
+        .day {
+            @include fs($para, 28px, 500, $ff1);
+            text-transform: capitalize;
+            // padding-right: 20px;
+        }
+
+        .hours {
+            @include fs($para, 28px, 500, $ff1);
+            text-transform: capitalize;
+            // padding-right: 20px;
+        }
+
+        .min {
+            @include fs($para, 28px, 500, $ff1);
+            text-transform: capitalize;
+            // padding-right: 20px;
+        }
+
+        .sec {
+            @include fs($para, 28px, 500, $ff1);
+            text-transform: capitalize;
+            // padding-right: 20px;
+        }
+
+    }
+}
+
+/*==============================================
+            Flash Deals Part End
+================================================*/

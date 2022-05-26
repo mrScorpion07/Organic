@@ -1,0 +1,160 @@
+@import '../../mixins/mixin';
+@import '../../variables/variable';
+
+/*==============================================
+            Footer Part Start
+================================================*/
+#footer {
+    padding: 120px 0 120px;
+    background: #F8F8F8;
+
+    .left {
+        .address {
+            padding-top: 20px;
+
+            ul {
+                li {
+                    padding-bottom: 8px;
+
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+
+                    a {
+                        @include fs(#6C6C6C, 16px, 400, $ff1);
+                        transition: all linear .3s;
+
+                        &:hover {
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .mid1 {
+        h2 {
+            @include fs(#363636, 20px, 600, $ff1);
+            text-transform: capitalize;
+            padding-bottom: 20px;
+        }
+
+        ul {
+            li {
+                padding-bottom: 8px;
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
+
+                a {
+                    @include fs(#6C6C6C, 16px, 400, $ff1);
+                    transition: all linear .3s;
+
+                    &:hover {
+                        color: $orange;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .mid2 {
+        h2 {
+            @include fs(#363636, 20px, 600, $ff1);
+            text-transform: capitalize;
+            padding-bottom: 20px;
+        }
+
+        ul {
+            li {
+                padding-bottom: 8px;
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
+
+                a {
+                    @include fs(#6C6C6C, 16px, 400, $ff1);
+                    transition: all linear .3s;
+
+                    &:hover {
+                        color: $orange;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .end {
+        h2 {
+            @include fs(#363636, 20px, 600, $ff1);
+            text-transform: capitalize;
+            padding-bottom: 20px;
+        }
+
+        p {
+            @include fs(#6C6C6C, 16px, 400, $ff1);
+            padding-bottom: 25px;
+        }
+
+        .frm {
+            position: relative;
+
+            input {
+                width: 330px;
+                height: 56px;
+                border-radius: 10px;
+                border: 1px solid #C9C9C9;
+                @include fs(#676767, 16px, 400, $ff1);
+                padding-left: 14px;
+            }
+
+            button {
+                position: absolute;
+                background: none;
+                border: 0;
+                padding: 15px 28px;
+                border-radius: 10px;
+                background: $orange;
+                @include fs($wh, 16px, 400, $ff1);
+                right: 90px;
+                top: 1px;
+                transition: all linear .3s;
+
+                &:hover {
+                    background: $green;
+                }
+            }
+        }
+    }
+}
+
+.bc_top {
+    width: 50px;
+    height: 50px;
+    background: $orange;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 999;
+    display: none;
+    transition: all linear .3s;
+
+    &:hover {
+        background: $green;
+    }
+}
+
+/*==============================================
+            Footer Part End
+================================================*/

@@ -1,0 +1,47 @@
+@import '../../mixins/mixin';
+@import '../../variables/variable';
+
+/*==============================================
+                Banner Part Start
+================================================*/
+#banner {
+    padding: 190px 0;
+
+    .banner_text {
+        h1 {
+            @include fs($para, 65px, 700, $ff1);
+            text-transform: uppercase;
+            padding-bottom: 17px;
+            line-height: 79px;
+
+            span {
+                color: $orange;
+            }
+        }
+
+        p {
+            @include fs($shpara, 16px, 400, $ff1);
+            text-transform: capitalize;
+            line-height: 28px;
+            padding-right: 200px;
+            padding-bottom: 20px
+        }
+
+        a {
+            @include fs($wh, 20px, 600, $ff1);
+            text-transform: capitalize;
+            padding: 14px 50px;
+            background: $orange;
+            border-radius: 10px;
+            transition: all linear .3s;
+
+            &:hover {
+                background: $green;
+            }
+        }
+    }
+}
+
+/*==============================================
+                Banner Part End
+================================================*/

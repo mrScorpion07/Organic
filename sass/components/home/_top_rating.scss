@@ -1,0 +1,189 @@
+@import '../../mixins/mixin';
+@import '../../variables/variable';
+
+/*==============================================
+            Top Rating Part Start
+================================================*/
+#rating {
+    padding: 100px 0 100px;
+    position: relative;
+
+    // display: inline-block;
+    .raing_bc {
+        position: absolute;
+        left: 0;
+        top: 100px;
+        // display: inline-block;
+
+        img {
+            width: 497px;
+            height: 868px;
+        }
+    }
+
+    .mixit_btn {
+        padding-bottom: 40px;
+
+        button {
+            position: relative;
+            background: none;
+            border: 0;
+            transition: all linear .3s;
+
+            &:hover {
+                h2 {
+                    color: $orange;
+
+                    &::after {
+                        width: 100%;
+                    }
+                }
+            }
+
+            h2 {
+                @include fs($para, 25px, 700, $ff1);
+                text-transform: capitalize;
+                transition: all linear .3s;
+
+                &::after {
+                    @include after_bl(-12px, 0, 0%, 3px, $orange);
+                    transition: all linear .3s;
+                }
+            }
+        }
+    }
+
+    .mixit_up2 {
+        display: block;
+
+        .rating_img {
+            position: relative;
+            transition: all linear .3s;
+            // cursor: pointer;
+
+            &:hover {
+                .overlay_text {
+                    transform-origin: top;
+                    transform: scale(1);
+
+                }
+            }
+
+            img {
+                border-radius: 25px;
+            }
+
+            .discount_overlay {
+                position: absolute;
+                right: 20px;
+                top: 20px;
+
+                p {
+                    @include fs($wh, 12PX, 400, $ff1);
+                    text-transform: capitalize;
+                    padding: 3px 8px;
+                    background: $green;
+                    border-radius: 5px;
+                }
+            }
+
+            .sold_overlay {
+                position: absolute;
+                right: 20px;
+                top: 20px;
+
+                p {
+                    @include fs($wh, 12px, 400, $ff1);
+                    text-transform: capitalize;
+                    padding: 3px 8px;
+                    background: $orange;
+                    display: inline-block;
+                    border-radius: 5px;
+                }
+            }
+
+            .icon_overlay {
+                position: absolute;
+                bottom: 30px;
+                left: 52%;
+                transform: translateX(-50%);
+
+                ul {
+                    li {
+                        padding-right: 4px;
+
+                        &:last-child {
+                            padding-right: 0;
+                        }
+
+                        i {
+                            font-size: 15px;
+                            color: #FFAE00;
+                        }
+                    }
+                }
+            }
+
+            .overlay_text {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(40, 40, 40, 0.8);
+                border-radius: 25px;
+                transition: all linear .3s;
+                transform: scale(0);
+
+                ul {
+                    @include middle();
+                    transition: all linear .3s;
+
+                    li {
+                        padding-right: 15px;
+
+                        &:last-child {
+                            padding-right: 0;
+                        }
+
+                        a {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background: $wh;
+                            text-align: center;
+                            line-height: 40px;
+
+                            i {
+                                font-size: 20px;
+                                color: $orange;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .rating_text {
+            padding-top: 20px;
+
+            h2 {
+                @include fs($para, 20px, 600, $ff1);
+                text-transform: capitalize;
+                padding-bottom: 6px;
+            }
+
+            p {
+                @include fs(#969696, 20px, 500, $ff1);
+            }
+        }
+
+        .rt_gap {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/*==============================================
+            Top Rating Part End
+================================================*/

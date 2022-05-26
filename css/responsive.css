@@ -1,0 +1,364 @@
+@media (max-width: 575.99px) {
+
+    /*=======================
+            Home Page Start
+    ========================= */
+
+    /* Menu Part Start */
+    .main_menu {
+        padding: 10px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+    }
+
+    #navbarSupportedContent ul {
+        margin-top: 10px !important;
+        text-align: center;
+    }
+
+    .main_menu ul li {
+        padding: 0 !important;
+    }
+
+    .main_menu .cart {
+        margin-bottom: 20px;
+    }
+
+    .main_menu .cart ul li:last-child {
+        padding-right: 0 !important;
+    }
+
+    /* Menu Part End */
+
+    /* Banner Part End */
+    #banner {
+        padding: 60px 0;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 12px;
+    }
+
+    #banner .banner_text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+        padding-bottom: 18px;
+    }
+
+    #banner .banner_text a {
+        font-size: 16px;
+        padding: 13px 36px;
+    }
+
+    /* Banner Part End */
+
+
+    /* Service Part Start */
+    #service {
+        padding: 50px 0;
+    }
+
+    #service .service_text i {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    #service .service_text {
+        padding-bottom: 30px;
+    }
+
+    #service .service_text_unq {
+        padding-bottom: 30px;
+    }
+
+    #service .st_last {
+        padding-bottom: 0;
+    }
+
+    #service .service_text_unq h3 {
+        padding-top: 20px;
+    }
+
+    /* Service Part End */
+
+    /* Trendy Products Part End */
+    #trendy_pdc {
+        padding: 10px 0 50px;
+    }
+
+    #trendy_pdc .trendy_head h2 {
+        font-size: 20px;
+    }
+
+    #trendy_pdc .trendy_head {
+        padding-bottom: 30px;
+    }
+
+    #trendy_pdc .all_pdc .mixit_up_pdc .pdc_left_img .pdc_left_text h2 {
+        font-size: 18px;
+    }
+
+    #trendy_pdc .all_pdc .mixit_up {
+        padding-top: 30px;
+    }
+
+    #trendy_pdc .all_pdc .product_img .overlay_text ul li {
+        padding-right: 14px;
+    }
+
+    #trendy_pdc .all_pdc .sm_gap {
+        margin-bottom: 25px;
+    }
+
+    /* Trendy Products Part End */
+
+    /* Flash Deals Part Start */
+    #flash {
+        padding: 55px 0 50px;
+    }
+
+    #flash .flash_text h2 {
+        font-size: 36px;
+    }
+
+    #flash .flash_text h3 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    #flash .flash_text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+        padding-bottom: 16px;
+    }
+
+    #flash .flash_text a {
+        font-size: 16px;
+        padding: 13px 36px;
+    }
+
+    #flash .flash_text .flash_offer {
+        font-size: 22px;
+        padding-top: 25px;
+    }
+
+    #flash .flash_text .flash_offer2 {
+        font-size: 22px;
+        padding-top: 25px;
+    }
+
+    #flash .flash_text .flash_offer3 {
+        font-size: 22px;
+        padding-top: 25px;
+    }
+
+    #flash .flash_text .flash_offer4 {
+        font-size: 22px;
+        padding-top: 25px;
+    }
+
+    #flash .flash_text .day {
+        font-size: 18px;
+    }
+
+    #flash .flash_text .hours {
+        font-size: 18px;
+    }
+
+    #flash .flash_text .min {
+        font-size: 18px;
+    }
+
+    #flash .flash_text .sec {
+        font-size: 18px;
+    }
+
+    #flash .flash_text .pr {
+        padding-right: 16px;
+    }
+
+    /* Flash Deals Part End */
+
+    /* Top Rating Part End */
+    #rating {
+        padding: 50px 0 50px;
+        position: relative;
+    }
+
+    #rating .mixit_btn button h2 {
+        font-size: 14px;
+    }
+
+    #rating .mixit_up2 .rating_img .overlay_text ul li {
+        padding-right: 14px;
+    }
+
+    #rating .mixit_up2 .sm_gap {
+        margin-bottom: 30px;
+    }
+
+    /* Top Rating  Part End */
+
+    /* Latest  Part Start */
+    #latest .menu_latest li {
+        width: 29%;
+        margin-right: 10px;
+    }
+
+    #latest .menu_latest li button {
+        font-size: 11px;
+    }
+
+    #latest .menu_latest li button.active::after {
+        width: 74%;
+    }
+
+    #latest .menu_latest li button:hover::after {
+        width: 65%;
+    }
+
+    #latest .latest_item_main ul li {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #latest .latest_item_main ul li .rating_img .overlay_text ul li {
+        padding-right: 14px;
+    }
+
+    /* Latest  Part End */
+
+
+    /* Testimonial  Part Start */
+    #testimonial {
+        padding: 65px 0 50px;
+    }
+
+    #testimonial .test_slider .test_text {
+        padding-left: 0;
+    }
+
+    #testimonial .test_slider .test_img {
+        padding-left: 0;
+    }
+
+    #testimonial .test_slider .test_text h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    #testimonial .test_slider .test_text .quot {
+        padding-bottom: 10px;
+    }
+
+    #testimonial .test_slider .test_text .st_ic {
+        padding-bottom: 15px;
+    }
+
+    #testimonial .test_slider .test_text p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+    }
+
+    #testimonial .test_slider .prv_arr {
+        top: 90%;
+        left: 10px;
+    }
+
+    #testimonial .test_slider .nxt_arr {
+        right: 0;
+        bottom: 38px;
+        left: 5%;
+    }
+
+    /* Testimonial  Part End */
+
+    /* Card  Part Start */
+    #card {
+        padding: 50px 0 50px;
+    }
+
+    #card .box .card_text .text_main h2 {
+        font-size: 18px;
+        padding-bottom: 6px;
+        padding-right: 0;
+    }
+
+    #card .box .card_text .text_main p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
+
+    /* Card  Part End */
+
+    /* Footer  Part Start */
+    #footer {
+        padding: 50px 0 60px;
+    }
+
+    #footer .left {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #footer .mid1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #footer .mid2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #footer .end {
+        text-align: center;
+    }
+
+    #footer .end .frm input {
+        width: 100%;
+    }
+
+    #footer .end .frm button {
+        position: static;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    /* Footer  Part End */
+
+    .bc_top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 23px;
+        right: 28px;
+        bottom: 12px;
+    }
+    /*=======================
+            Home Page End
+    ========================= */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (min-width: 1400px) {}

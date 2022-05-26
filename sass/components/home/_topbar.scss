@@ -1,0 +1,21 @@
+@import '../../mixins/mixin';
+@import '../../variables/variable';
+
+/*==============================================
+                TopBar Part Start
+================================================*/
+#topbar {
+    padding: 15px 0;
+    background: $green;
+
+    .head_text {
+        h5 {
+            @include fs($wh, 16px, 400, $ff1);
+            text-transform: capitalize;
+        }
+    }
+}
+
+/*==============================================
+                TopBar Part End
+================================================*/

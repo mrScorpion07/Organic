@@ -1,0 +1,66 @@
+@import '../../mixins/mixin';
+@import '../../variables/variable';
+
+/*==============================================
+                Service Part Start
+================================================*/
+#service {
+    padding: 80px 0;
+    background: $wh;
+
+    .service_text {
+        i {
+            color: $orange;
+            font-size: 51px;
+            padding-bottom: 30px
+        }
+
+        h3 {
+            @include fs($para, 25px, 600, $ff1);
+            text-transform: capitalize;
+            padding-bottom: 8px;
+        }
+
+        p {
+            @include fs($shpara, 16px, 100, $ff1);
+        }
+    }
+
+    .service_text_unq {
+        .icon {
+            position: relative;
+
+            span {
+                position: absolute;
+                @include fs($orange, 12px, 700, $ff1);
+                font-style: italic;
+                text-transform: uppercase;
+                top: -12px;
+                left: 49%;
+                transform: translateX(-50%);
+            }
+
+            i {
+                color: $orange;
+                font-size: 35px;
+                // padding-bottom: 30px
+                margin-top: 5px
+            }
+        }
+
+        h3 {
+            @include fs($para, 25px, 600, $ff1);
+            text-transform: capitalize;
+            padding-bottom: 8px;
+            padding-top: 40px;
+        }
+
+        p {
+            @include fs($shpara, 16px, 100, $ff1);
+        }
+    }
+}
+
+/*==============================================
+                Service Part End
+================================================*/
